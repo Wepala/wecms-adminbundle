@@ -1,0 +1,30 @@
+{
+    "name": "wepala/wecms-adminbundle",
+    "type": "symfony-bundle",
+    "description": "WeCMS User Bundle",
+    "keywords": ["symfony","wecms","admin"],
+    "homepage": "http://wecms.wepala.com",
+    "version" : "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akeem Philbert",
+            "email": "akeem.philbert@wepala.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "symfony/framework-bundle": "~2.5",
+        "symfony/security-bundle": "~2.5"
+    },
+    "autoload": {
+        "psr-0": { "WeCMS\\AdminBundle": "" }
+    },
+    "target-dir": "WeCMS/AdminBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev"
+        }
+    }
+}
