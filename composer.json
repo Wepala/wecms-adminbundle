@@ -14,8 +14,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4",
-        "symfony/framework-bundle": "~2.5",
-        "symfony/security-bundle": "~2.5"
+        "symfony/framework-bundle": "~2.6.0",
+        "symfony/security-bundle": "~2.6.0"
     },
     "autoload": {
         "psr-0": { "WeCMS\\AdminBundle": "" }
