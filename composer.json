@@ -5,6 +5,7 @@
     "keywords": ["symfony","wecms","admin"],
     "homepage": "http://wecms.wepala.com",
     "license": "MIT",
+    "version" : "1.0.0",
     "authors": [
         {
             "name": "Akeem Philbert",
@@ -23,7 +24,7 @@
     "target-dir": "WeCMS/AdminBundle",
     "extra": {
         "branch-alias": {
-            "dev-master": "master"
+            "dev-master": "1.0.0"
         }
     }
 }
